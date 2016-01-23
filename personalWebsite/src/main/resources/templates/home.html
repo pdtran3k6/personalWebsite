@@ -13,26 +13,38 @@
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		
+		<style>
+		body {
+			background-color: lightgreen;
+		}
+		
+		.jumbotron {
+		    padding-top: 20px;
+		    padding-bottom: 20px;
+		}
+		</style>
 	</head>
 	
 	
 	
 	
 	
-	<body style="text-align: center">
+	<body style="text-align: center; padding-top: 20px;">
 	
+	
+
+	<div class="jumbotron">
 		<div class="row">
-		  <div class="col-md-4"><h1 style="font-family: Tahoma"><a th:href="@{/projects}">PROJECTS</a></h1></div>
-		  <div class="col-md-4"><h1 style="font-family: Tahoma"><a th:href="@{/aboutme}">ABOUT ME</a></h1></div>
-		  <div class="col-md-4"><h1 style="font-family: Tahoma"><a th:href="@{/contact}">CONTACT</a></h1></div>
+		  <div class="col-md-4"><h3 style="font-family: Tahoma"><a th:href="@{/projects}">PROJECTS</a></h3></div>
+		  <div class="col-md-4"><h3 style="font-family: Tahoma"><a th:href="@{/aboutme}">ABOUT ME</a></h3></div>
+		  <div class="col-md-4"><h3 style="font-family: Tahoma"><a th:href="@{/contact}">CONTACT</a></h3></div>
 		</div>
+	</div>
 		
-		
-		
-		
-		
-		
-		
+	<div style="padding-top: 30px">
+		<p>Are you hungry? If you are then go grab some snacks, and we'll be on the adventure soon!</p>
+		<p>In self-exploring mood? Go click on one of the sections above</p>	
+	</div>	
 		
 		
 		
@@ -52,7 +64,7 @@
 			
 		
 		
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	</body>
 	
 </html>

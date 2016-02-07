@@ -1,0 +1,59 @@
+/* This is css stylesheet for personalWebsite */
+body 
+{
+	background-color: lightgreen;
+}
+		
+.jumbotron 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+title
+{
+	font-family: Tahoma;
+}
+
+td
+{
+  padding:0 35px 0 35px;
+}
+
+h1
+{
+	color: #ff0000;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+p
+{
+	font-family: Verdana;
+}
+
+p.index
+{
+	color: #ffd9d9;
+	font-size: 17px;
+}
+		
+.log-in-form 
+{
+  border: 30px solid #ff0000;
+  padding: 10rem;
+  border-radius: 20px; 
+}
+
+.bgimage
+{
+	background-image: url('../image/gingerHeader.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 150px;
+}
+
+form 
+{
+	text-align: center;
+}

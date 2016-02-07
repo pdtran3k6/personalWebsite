@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    
+    <head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<title>About Me</title>
+	</head>
+	<body style="text-align: center; padding-top: 20px;">
+		<div class="jumbotron">
+			<div class="row">
+			  <div class="col-md-4"><h3 style="font-family: Tahoma"><a th:href="@{/home}">HOME</a></h3></div>
+			  <div class="col-md-4"><h3 style="font-family: Tahoma"><a th:href="@{/contact}">CONTACT</a></h3></div>
+			  <div class="col-md-4"><h3 style="font-family: Tahoma"><a th:href="@{/projects}">PROJECTS</a></h3></div>
+			</div>
+		</div>
+		
+			<div style="padding-top: 30px">
+				<p style="font-family: Courier New">I'm Phat Tran, an aspiring engineer with an insatiable hunger, metaphorically and literally. </p>
+				<a style="font-family: Tahoma" href="/phatTranResume.pdf">RESUME</a>
+			</div>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</body>
+	
+</html>

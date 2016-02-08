@@ -22,26 +22,20 @@ body
     background-image: url('/image/black-leather-texture.jpg');
 }
 
-title
-{
-	font-family: Tahoma;
-}
-
-td
-{
-  padding:0 35px 0 35px;
-}
-
 h1
 {
-	color: #ff0000;
 	font-family: Tahoma;
 	font-weight: bold;
 }
 
+h2
+{
+	font-family: Tahoma;
+}
+
 h3
 {
-	font-family: Tahoma
+	font-family: Tahoma;
 }
 
 p

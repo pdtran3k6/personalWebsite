@@ -22,6 +22,11 @@ body
     background-image: url('/image/black-leather-texture.jpg');
 }
 
+a
+{
+	font-family: Tahoma;
+}
+
 h1
 {
 	font-family: Tahoma;

@@ -25,6 +25,12 @@ body
 a
 {
 	font-family: Tahoma;
+	color: #FF6600;
+}
+
+a:hover
+{
+	color: #CC3333;
 }
 
 h1
@@ -50,31 +56,36 @@ p
 
 p.index
 {
-	color: #ffd9d9;
+	color: #FFD9D9;
 	font-size: 17px;
 }
 		
-.log-in-form 
-{
-  border: 30px solid #ff0000;
-  padding: 10rem;
-  border-radius: 20px; 
-}
-
-form 
-{
-	text-align: center;
-}
-
 .navigation
 {
-	color: white;
+	color: #FF6600;
 }
 
 .navigation:hover
 {
-	color: white;
+	color: #FFFFFF;
+	text-decoration: none;
 }
+
+.btn-primary {
+    background: #FF6600;
+    border: #FF6600;
+    color: #FFFFFF;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active
+{
+	background: #CC3333;
+	border: #CC3333;
+}
+
 
 ul,li 
 { 

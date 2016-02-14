@@ -79,13 +79,12 @@ p.index
 
 
 .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active
+.btn-primary:active,
+.btn-primary:focus
 {
 	background: #CC3333;
 	border: #CC3333;
 }
-
 
 ul,li 
 { 

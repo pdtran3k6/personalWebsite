@@ -19,11 +19,12 @@ body
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: url('/image/black-leather-texture.jpg');
+    background-size: cover;
 }
 
 a
 {
-	font-family: Tahoma;
+	font-family: Montserrat;
 	color: #FF6600;
 }
 
@@ -35,18 +36,17 @@ a:hover
 
 h1
 {
-	font-family: Helvetica;
 	font-weight: bold;
 }
 
-h2
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
 {
-	font-family: Tahoma;
-}
-
-h3
-{
-	font-family: Tahoma;
+	font-family: Montserrat;
 }
 
 p
@@ -62,7 +62,7 @@ p
 
 .navigation:hover
 {
-	color: #FFFFFF;
+	color: #CC3333;
 	text-decoration: none;
 }
 
@@ -94,11 +94,11 @@ ul,li
     padding: 0; 
 }
 
-.thumbnail
+.thumbnail img
 {
-	width: 200px;
-	height: 200px;
+	height: 50px;
 	overflow: auto;
+	margin: 0;
 }
 
 .icon

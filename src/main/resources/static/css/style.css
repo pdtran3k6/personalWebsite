@@ -28,7 +28,10 @@ a
 	color: #FF6600;
 }
 
-a:hover
+a:hover,
+a:focus,
+a:active,
+a.active
 {
 	color: #CC3333;
 	text-decoration: none;
@@ -85,23 +88,12 @@ p
           box-shadow: none;
 }
 
-
-ul,li 
-{ 
-	list-style-type: none;
-    list-style-position: inside;
-    margin: 0;
-    padding: 0; 
-}
-
-.thumbnail img
-{
-	height: 50px;
-	overflow: auto;
-	margin: 0;
-}
-
 .icon
 {
 	padding-right: 20px;
+}
+
+.porfolio-item
+{
+	margin-bottom: 30px;	
 }

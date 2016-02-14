@@ -7,7 +7,6 @@ html
 		   -o-background-size: cover;
 }
 
-
 body 
 {
 	text-align: center;
@@ -31,6 +30,7 @@ a
 a:hover
 {
 	color: #CC3333;
+	text-decoration: none;
 }
 
 h1
@@ -54,11 +54,6 @@ p
 	font-family: Verdana;
 }
 
-p.index
-{
-	color: #FFD9D9;
-	font-size: 17px;
-}
 		
 .navigation
 {

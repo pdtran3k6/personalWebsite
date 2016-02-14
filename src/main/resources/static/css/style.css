@@ -3,8 +3,8 @@ html
 {
 	background: url('/image/clean-white-polygon-backgrounds-8.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
-	-moz-background-size: cover; 
-	-o-background-size: cover;
+		   -moz-background-size: cover; 
+		   -o-background-size: cover;
 }
 
 
@@ -71,20 +71,25 @@ p.index
 	text-decoration: none;
 }
 
+
 .btn-primary {
     background: #FF6600;
     border: #FF6600;
-    color: #FFFFFF;
 }
-
 
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary:focus
+.btn-primary:focus,
+.btn-primary:active:focus
 {
-	background: #CC3333;
-	border: #CC3333;
+  background-color: #CC3333;
+  border-color: #CC3333;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
+
 
 ul,li 
 { 

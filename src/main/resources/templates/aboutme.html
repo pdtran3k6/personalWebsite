@@ -1,40 +1,66 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-    
-    <head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
-		<link rel="stylesheet" href="css/style.css"/>
-		<title>About Me</title>
-	</head>
-	
-	<body>
-		<div class="jumbotron">
-		  <div class="row">
-			<div class="col-sm-4"><h3><a class="navigation" th:href="@{/}">HOME</a></h3></div>
-			<div class="col-sm-4"><h3><a class="navigation" th:href="@{/articles}">ARTICLES</a></h3></div>
-			<div class="col-sm-4"><h3><a class="navigation" th:href="@{/projects}">PROJECTS</a></h3></div>
-		  </div>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700"
+	rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/style.css" />
+<title>About Me</title>
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>
+					<a class="navigation" th:href="@{/}">HOME</a>
+				</h3>
+			</div>
+			<div class="col-sm-4">
+				<h3>
+					<a class="navigation" th:href="@{/articles}">ARTICLES</a>
+				</h3>
+			</div>
+			<div class="col-sm-4">
+				<h3>
+					<a class="navigation" th:href="@{/projects}">PROJECTS</a>
+				</h3>
+			</div>
 		</div>
-			
-		<div class="container" style="padding-top: 30px">
-		  <p>I'm Phat Tran, an aspiring engineer with an insatiable hunger, metaphorically and literally. If you have an offer, opportunity, 
-		  or just want to reach out and play some basketball (why? because a coffee meet-up is basic and over-rated), you can contact me through
-		  the following social means:</p>
-		  <a class="icon" href="mailto:phatdtran3k6@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
-		  <a class="icon" href="https://ca.linkedin.com/in/phatdaitran"><i class="fa fa-linkedin-square fa-3x"></i></a>
-		  <a class="icon" href="https://www.facebook.com/DaiPhatTraan"><i class="fa fa-facebook fa-3x"></i></a>
-		  <a class="icon" href="https://github.com/pdtran3k6"><i class="fa fa-github fa-3x"></i></a>
-		  
-		  <h4 style="padding-top: 30px"><b>MY RESUME</b></h4>
-		  <a href="/phatTranResume.pdf"><i class="fa fa-product-hunt fa-3x"></i></a>
-		</div>
-			
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</body>
-	
+	</div>
+
+	<div class="container" style="padding-top: 30px">
+		<p>I'm Phat Tran, an aspiring engineer with an insatiable hunger,
+			metaphorically and literally. If you have an offer, opportunity, or
+			just want to reach out and play some basketball (why? because a
+			coffee meet-up is basic and over-rated), you can contact me through
+			the following social means:</p>
+		<a class="icon" href="mailto:phatdtran3k6@gmail.com"><i
+			class="fa fa-envelope-o fa-3x"></i></a> <a class="icon"
+			href="https://ca.linkedin.com/in/phatdaitran"><i
+			class="fa fa-linkedin-square fa-3x"></i></a> <a class="icon"
+			href="https://www.facebook.com/DaiPhatTraan"><i
+			class="fa fa-facebook fa-3x"></i></a> <a class="icon"
+			href="https://github.com/pdtran3k6"><i class="fa fa-github fa-3x"></i></a>
+
+		<h4 style="padding-top: 30px">
+			<b>MY RESUME</b>
+		</h4>
+		<a href="/phatTranResume.pdf"><i class="fa fa-product-hunt fa-3x"></i></a>
+	</div>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
 </html>

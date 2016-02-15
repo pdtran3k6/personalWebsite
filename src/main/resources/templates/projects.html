@@ -1,52 +1,102 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-    
-    <head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"/>
-		<link rel="stylesheet" href="css/style.css"/>
-		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
-		<title>Projects</title>
-	</head>
-	
-	
-	<body>
-		<div class="jumbotron">
-			<div class="row">
-			  <div class="col-sm-4"><h3><a class="navigation" th:href="@{/}">HOME</a></h3></div>
-			  <div class="col-sm-4"><h3><a class="navigation" th:href="@{/aboutme}">ABOUT ME</a></h3></div>
-			  <div class="col-sm-4"><h3><a class="navigation" th:href="@{/articles}">ARTICLES</a></h3></div>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700"
+	rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/style.css" />
+<title>Projects</title>
+</head>
+
+
+<body>
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>
+					<a class="navigation" th:href="@{/}">HOME</a>
+				</h3>
+			</div>
+			<div class="col-sm-4">
+				<h3>
+					<a class="navigation" th:href="@{/aboutme}">ABOUT ME</a>
+				</h3>
+			</div>
+			<div class="col-sm-4">
+				<h3>
+					<a class="navigation" th:href="@{/articles}">ARTICLES</a>
+				</h3>
 			</div>
 		</div>
-		
-		<h1>MY PROJECTS</h1>
-		
-		<div style="padding-top: 30px">
-		  <div class="row">
-		    	 
-		    	 <div class="col-md-4 col-sm-3 col-xs-6 portfolio-item">
-                  <a href="#legosaltspreader" data-toggle="modal">
-                    <img class="img-responsive" src="/image/projects/legoSaltSpreader.jpg"></img>
-                  </a>
-                 </div>
-		    	  
-		    	  <div class="col-md-4 col-sm-3 col-xs-6 porfolio-item">
-                    <a href="#battery" data-toggle="modal">
-                      <img class="img-responsive" src="/image/projects/battery.jpg"></img>
-                    </a>
-                  </div>
-                  
-                  <div class="col-md-4 col-sm-3 col-xs-6 portfolio-item">
-                    <a href="#listmatching" data-toggle="modal">
-                      <img class="img-responsive" src="/image/projects/listMatching.jpg"></img>
-                    </a>
-                  </div>
-                  
-		     </div>
-		  </div>
-		
-		
+	</div>
+
+	<h1>MY PROJECTS</h1>
+
+	<div style="padding-top: 30px">
+		<div class="row">
+
+			<div class="col-md-4 col-sm-3 col-xs-6 portfolio-item">
+				<a href="#legoSaltSpreader" data-toggle="modal"> <img
+					class="img-responsive" src="/image/projects/legoSaltSpreader.jpg"></img>
+				</a>
+			</div>
+
+			<div class="col-md-4 col-sm-3 col-xs-6 porfolio-item">
+				<a href="#battery" data-toggle="modal"> <img
+					class="img-responsive" src="/image/projects/battery.jpg"></img>
+				</a>
+			</div>
+
+			<div class="col-md-4 col-sm-3 col-xs-6 portfolio-item">
+				<a href="#listMatching" data-toggle="modal"> <img
+					class="img-responsive" src="/image/projects/listMatching.jpg"></img>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<div id="legoSaltSpreader" class="portfolio-modal modal fade"
+		tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Lego Salt Spreader</h2>
+							<hr class="star-primary"></hr>
+							<img src="/image/projects/legoSaltSpreader (ORG).jpg"
+								class="img-responsive img-centered" alt=""></img>
+							<p>Use this area of the page to describe your project. The
+								icon above is part of a free icon set by Phat Tran. On their
+								website, you can download their free set with 16 icons, or you
+								can purchase the entire set with 146 icons for only $12! This
+								can spread run around and spread salts like crazy! :D</p>
+							<button class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--  
 		<div id="legosaltspreader" class="modal fade" tabindex="-1">
           <div class="modal-dialog">
               <div class="modal-content">
@@ -63,46 +113,57 @@
                   </div>
               </div>
           </div>
-        </div>
-        
-        <div id="battery" class="modal fade" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
-                        <h3 class="modal-title">Smart Battery Charging System</h3>
-                  </div>
-                  <div class="modal-body">
-                    <p><img src="/image/projects/battery (ORG).jpg" class="img-responsive pull-left"></img>
-                    This can stop the current when the battery is full</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
-                  </div>
-              </div>
-          </div>
-        </div>
-        
-        <div id="listmatching" class="modal fade" tabindex="-1">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
-                        <h3 class="modal-title">List Reconciliation</h3>
-                  </div>
-                  <div class="modal-body">
-                    <p><img src="/image/projects/listMatching.jpg" class="img-responsive pull-left"></img>
-                    This can reconcile a bunch of lists into a master list and compare each individual lists to the master</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
-                  </div>
-              </div>
-          </div>
-        </div>
-			
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</body>
-	
+        </div> -->
+
+	<div id="battery" class="modal fade" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close glyphicon glyphicon-remove"
+						data-dismiss="modal"></button>
+					<h3 class="modal-title">Smart Battery Charging System</h3>
+				</div>
+				<div class="modal-body">
+					<p>
+						<img src="/image/projects/battery (ORG).jpg"
+							class="img-responsive pull-left"></img> This can stop the current
+						when the battery is full
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="listmatching" class="modal fade" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close glyphicon glyphicon-remove"
+						data-dismiss="modal"></button>
+					<h3 class="modal-title">List Reconciliation</h3>
+				</div>
+				<div class="modal-body">
+					<p>
+						<img src="/image/projects/listMatching.jpg"
+							class="img-responsive pull-left"></img> This can reconcile a
+						bunch of lists into a master list and compare each individual
+						lists to the master
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
 </html>

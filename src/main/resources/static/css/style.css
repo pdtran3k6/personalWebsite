@@ -82,7 +82,7 @@ p {
 }
 
 /* The 'X' for each modal */
-.portfolio-modal .close-modal {
+.modal .close-modal {
 	position: absolute;
 	top: 25px;
 	right: 25px;
@@ -92,11 +92,11 @@ p {
 	cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover .lr, .portfolio-modal .close-modal:hover .lr .rl {
+.modal .close-modal:hover .lr, .modal .close-modal:hover .lr .rl {
 	background-color: #CC3333;
 }
 
-.portfolio-modal .close-modal .lr {
+.modal .close-modal .lr {
 	z-index: 1051;
 	width: 5px;
 	height: 75px;
@@ -107,7 +107,7 @@ p {
 	transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.modal .close-modal .lr .rl {
 	z-index: 1052;
 	width: 5px;
 	height: 75px;
@@ -117,7 +117,7 @@ p {
 	transform: rotate(90deg);
 }
 
-.portfolio-modal .modal-content {
+.modal .modal-content {
 	padding: 100px 0;
 	min-height: 100%;
 	border: 0;
@@ -128,9 +128,12 @@ p {
 	box-shadow: none;
 }
 
+.modal .modal-body img {
+	max-width: 650px;
+}
 
 /* Title of each project in modal */
-.portfolio-modal .modal-body h2 {
+.modal .modal-body h2 {
 	color: #FF6600;
 	text-transform: uppercase;
 	font-weight: bold;

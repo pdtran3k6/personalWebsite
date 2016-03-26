@@ -70,12 +70,12 @@ p {
 .icon {
 	padding-right: 30px;
 }
+
 #projectsPanel {
 	padding-top: 30px;
 	margin-left: 30px;
 	margin-right: 30px;
 }
-
 
 .porfolio-item {
 	margin-bottom: 30px;
@@ -160,4 +160,3 @@ hr.star-primary:after {
 	color: #FF6600;
 	background-color: #FFF;
 }
-

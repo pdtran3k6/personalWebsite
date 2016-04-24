@@ -17,6 +17,7 @@ body {
 .description-aboutme {
 	margin: 30px 0 30px 0;
 	text-align: left;	
+	font-family: Verdana;
 }
 
 .nav-bar {
@@ -51,58 +52,43 @@ body {
 	text-align: center;
 }
 
-.container {
-	margin-top: 30px;
+.social-media {
+	margin-top: 20px;
 }
 
-
-/*
-a {
+.my-project-header {
 	font-family: Montserrat;
-	color: #FF6600;
-}
-
-a:hover, a:focus, a:active, a.active {
-	color: #CC3333;
-	text-decoration: none;
-}
-*/
-h1 {
 	font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: Montserrat;
-}
-
-p {
-	font-family: Verdana;
-}
-
-.nav-text {
+.project-title {
+	text-align: left;
 	font-family: Montserrat;
 	color: #FF6600;
+	font-weight: bold;
 }
 
-.nav-text:hover {
+.nav-text, .nav-text:focus {
+	font-family: Montserrat;
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.nav-text:hover, .nav-text:active {
 	color: #CC3333;
 	text-decoration: none;
 }
 
-.btn-primary {
-	background: #FF6600;
-	border: #FF6600;
+.back-button, .back-button:focus {
+	color: #FF6600;
 	font-family: Montserrat;
-	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 300%;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus,
-	.btn-primary:active:focus {
-	background-color: #CC3333;
-	border-color: #CC3333;
-	outline: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
+.back-button:hover, .back-button:active {
+	color: #CC3333;
+	text-decoration: none;
 }
 
 .icon {
@@ -116,85 +102,5 @@ p {
 }
 
 .porfolio-item {
-	margin-bottom: 30px;
-}
-
-/* The 'X' for each modal */
-.modal .close-modal {
-	position: absolute;
-	top: 25px;
-	right: 25px;
-	width: 75px;
-	height: 75px;
-	background-color: transparent;
-	cursor: pointer;
-}
-
-.modal .close-modal:hover .lr, .modal .close-modal:hover .lr .rl {
-	background-color: #CC3333;
-}
-
-.modal .close-modal .lr {
-	z-index: 1051;
-	width: 5px;
-	height: 75px;
-	margin-left: 35px;
-	background-color: #FF6600;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-.modal .close-modal .lr .rl {
-	z-index: 1052;
-	width: 5px;
-	height: 75px;
-	background-color: #FF6600;
-	-webkit-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);
-}
-
-.modal .modal-content {
-	padding: 100px 0;
-	min-height: 100%;
-	border: 0;
-	border-radius: 0;
-	text-align: center;
-	background-clip: border-box;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-
-.modal .modal-body img {
-	max-width: 650px;
-}
-
-/* Title of each project in modal */
-.modal .modal-body h2 {
-	color: #FF6600;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-hr.star-primary {
-	margin: 25px auto 30px;
-	padding: 0;
-	max-width: 250px;
-	border: 0;
-	border-top: solid 4px;
-	text-align: center;
-	border-color: #FF6600;
-}
-
-hr.star-primary:after {
-	content: "\f005";
-	display: inline-block;
-	position: relative;
-	top: -.8em;
-	padding: 0 .25em;
-	font-family: FontAwesome;
-	font-size: 2em;
-	color: #FF6600;
-	background-color: #FFF;
+	margin-bottom: 50px;
 }

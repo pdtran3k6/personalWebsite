@@ -1,4 +1,5 @@
 /* This is css stylesheet for personalWebsite */
+
 html {
 	background: url('/image/clean-white-polygon-backgrounds-8.jpg')
 		no-repeat center center fixed;
@@ -13,13 +14,49 @@ body {
 	background-color: rgba(255, 0, 0, 0);
 }
 
-.jumbotron {
+.description-aboutme {
+	margin: 30px 0 30px 0;
+	text-align: left;	
+}
+
+.nav-bar {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-image: url('/image/black-leather-texture.jpg');
 	background-size: cover;
 }
 
+.nav-text, .nav-text:focus {
+	font-family: Montserrat;
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.nav-text:hover, .nav-text:active, .nav-text.active {
+	color: #CC3333;
+	text-decoration: none;
+}
+
+.icon, .icon:focus {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.icon:hover, .icon:active, .icon.active {
+	color: #CC3333;
+	text-decoration: none;
+}
+
+.portrait {
+	text-align: center;
+}
+
+.container {
+	margin-top: 30px;
+}
+
+
+/*
 a {
 	font-family: Montserrat;
 	color: #FF6600;
@@ -29,7 +66,7 @@ a:hover, a:focus, a:active, a.active {
 	color: #CC3333;
 	text-decoration: none;
 }
-
+*/
 h1 {
 	font-weight: bold;
 }
@@ -42,11 +79,12 @@ p {
 	font-family: Verdana;
 }
 
-.navigation {
+.nav-text {
+	font-family: Montserrat;
 	color: #FF6600;
 }
 
-.navigation:hover {
+.nav-text:hover {
 	color: #CC3333;
 	text-decoration: none;
 }

@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html layout:decorator="layout">
-<head>
-<title>Projects</title>
-</head>
 
+<head>
+<title>My Projects</title>
+</head>
 
 <body>
 	<div layout:fragment="content">
-		<h1>MY PROJECTS</h1>
-
+		<h1 class="my-project-header">MY PROJECTS</h1>
 		<div id="projectsPanel">
 			<div class="row">
-
-				<div class="col-md-4 col-sm-3 col-xs-6 portfolio-item">
-					<a href="#legoSaltSpreader" data-toggle="modal"> <img
-						class="img-responsive" src="/image/projects/legoSaltSpreader.jpg"></img>
+				<div class="col-sm-4 col-xs-12 portfolio-item">
+					<a th:href="@{/projects-legoSaltSpreader}"> 
+						<img class="img-responsive" 
+						src="/image/projects/legoSaltSpreader.jpg"></img>
 					</a>
 				</div>
 
-				<div class="col-md-4 col-sm-3 col-xs-6 porfolio-item">
+				<div class="col-sm-4 col-xs-12 porfolio-item">
 					<a href="#battery" data-toggle="modal"> <img
 						class="img-responsive" src="/image/projects/battery.jpg"></img>
 					</a>
 				</div>
 
-				<div class="col-md-4 col-sm-3 col-xs-6 portfolio-item">
+				<div class="col-sm-4 col-xs-12 portfolio-item">
 					<a href="#listMatching" data-toggle="modal"> <img
 						class="img-responsive" src="/image/projects/listMatching.jpg"></img>
 					</a>
 				</div>
-
 			</div>
 		</div>
 
@@ -56,7 +54,7 @@
 									shell script will help generate a master list that consists of
 									all the items in individual source and compare the percentage
 									appearance of each source to the master list :D</p>
-								<button class="btn btn-primary btn-lg" data-dismiss="modal">Close</button>
+								<button class="btn btn-primary btn-lg close-button" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>

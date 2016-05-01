@@ -15,13 +15,20 @@ body {
 }
 
 .content-container {
-	margin-top: 10%;	
+	margin-top: 7%;	
 }
 
-.description-aboutme {
-	margin: 30px 0 30px 0;
+.description {
 	text-align: left;	
 	font-family: Verdana;
+}
+
+#aboutme {
+	margin: 30px 0 30px 0;
+}
+
+#project {
+	margin: 20px 0 20px 0;
 }
 
 .nav-bar {
@@ -34,12 +41,17 @@ body {
 .nav-text, .nav-text:focus {
 	font-family: Montserrat;
 	color: #FF6600;
-	text-decoration: none;
+	font-weight: bold;
 }
 
 .nav-text:hover, .nav-text:active, .nav-text.active {
 	color: #CC3333;
 	text-decoration: none;
+}
+
+.nav-bar-2 {
+	text-align: right;
+	padding-right: 20px;	
 }
 
 .icon, .icon:focus {
@@ -72,22 +84,11 @@ body {
 	font-weight: bold;
 }
 
-.nav-text, .nav-text:focus {
-	font-family: Montserrat;
-	color: #FF6600;
-	font-weight: bold;
-}
-
-.nav-text:hover, .nav-text:active {
-	color: #CC3333;
-	text-decoration: none;
-}
-
 .back-button, .back-button:focus {
 	color: #FF6600;
 	font-family: Montserrat;
 	text-decoration: none;
-	font-size: 300%;
+	font-size: 200%;
 }
 
 .back-button:hover, .back-button:active {

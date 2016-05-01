@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html layout:decorator="layout">
+
+<head>
+<title>Lego Salt Spreader</title>
+</head>
+
+<body>
+	<div layout:fragment="content">
+		<div class="nav-bar-2">
+			<a class="back-button" th:href="@{/projects}">
+				<span class="glyphicon glyphicon-chevron-left"></span>BACK
+			</a>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 project-title">
+				<h2>Lego Salt Spreader</h2>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-3">
+					<img src="/image/projects/legoSaltSpreader (ORG).jpg" 
+					class="img-rounded" width="315px" height="auto"></img>
+				</div>
+				<div class="col-sm-5 description" id="project">
+					<p><b>Material:</b> Lego Mindstorms &reg; NXT kit for the 
+					construction of the robot.</p>
+					
+					<p><b>Language used:</b> RobotC (C++ based)</p>
+			
+					<p><b>Purposes:</b> to spread salt on side walks and other slippery surfaces.</p>
+					<p>This vehicle turns in the opposite direction if it touches 
+					an obstacle. <br></br> When an obstacle is in between the path and the other side, 
+					this vehicle can also cover the missing side. <br></br> After it finishes, it will 
+					display the amount of distance covered and the amount of salt used.</p>
+					
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+</body>
+
+</html>
